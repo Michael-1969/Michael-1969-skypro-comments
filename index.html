@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Проект "Комменты"</title>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./favicon.png" sizes="32x32" type="image/png">
+    <link rel="stylesheet" href="./styles.css" />
+     <title>Comments</title>
+     <script defer type="module" src="./js/main.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <ul id="list-comments" class="comments">
+      </ul>
+      <div class="add-form">
+        <input
+          type="text"
+          class="add-form-name"
+          id="input-field"
+          name="input-field"
+          placeholder="Введите ваше имя"
+          autofocus
+          value=""
+          title="Введите имя только латинскими буквами"
+        />
+        <textarea
+          type="textarea"
+          class="add-form-text"
+          id="textarea-field"
+          name="textarea-field"
+          placeholder="Введите ваш коментарий"
+          rows="4"
+          value=""
+          readonly="true"
+          title="Введите текст только латинскими буквами"
+        ></textarea>
+        <div class="add-form-row">
+          <button class="add-form-button">Написать</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
